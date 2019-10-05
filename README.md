@@ -18,6 +18,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng deploy` to automatically package and publish the project. The build artifacts will be available in the `gh-pages` branch. Use the `--base-href` flag with the value `/portfolio/` to set the fetch location.
 
+## Deploy to a custom domain
+
+Run `ng deploy` as above, but use the `--cname` flag instead of `--base-href` with the custom domain as the value.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
