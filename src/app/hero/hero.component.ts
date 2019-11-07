@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GithubService } from '../github/github.service';
+import { User } from '../github/user';
 
 @Component({
   selector: 'app-hero',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
+  public user: User;
+
+  constructor(private githubService: GithubService) { }
 
   ngOnInit() {
+    this.githubService.getUser().subscribe(user => {
+      this.user = user;
+    });
   }
 
 }
