@@ -1,2 +1,34 @@
-<img src="{{user.avatar_url}}" alt="GitHub avatar" />
-<h1 class="text-center">Hello, I'm Scott 👋🏻</h1>
+<div class="hero">
+    <div class="container">
+        <div class="row h-100">
+            <div class="col-1 my-auto">
+                <div class="text-center">
+                    <img src="{{user.avatar_url}}" *ngIf="user" alt="GitHub avatar" class="center-block" />
+                </div>
+            </div>
+            <div class="col-3 my-auto">
+                <p id="hero-title">Scott Blechman</p>
+                <hr>
+                <p>Full-Stack Developer 👨‍💻</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container">
+    <div class="text-center">
+        <h1>Hi, I'm <strong>Scott Blechman</strong>.</h1>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="text-center">
+                <p id="blurb">I'm a developer with a background in startups and enterprise software.
+                    I have multiple years' experience developing mobile, native, and web applications.</p>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>

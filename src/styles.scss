@@ -29,13 +29,4 @@ $portfolio-theme: mat-light-theme($portfolio-primary, $portfolio-accent, $portfo
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-.parallax {
-    background-image: url("assets/hero.jpg");
-    min-height: 25rem; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+body { margin: 0; font-family: 'Montserrat', "Helvetica Neue", sans-serif; background-color: #FFF8F0; }
