@@ -3,11 +3,11 @@ import { GithubService } from '../github/github.service';
 import { User } from '../github/user';
 
 @Component({
-  selector: 'app-hero',
-  templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.scss']
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.scss']
 })
-export class HeroComponent implements OnInit {
+export class MenuComponent implements OnInit {
 
   public user: User;
 
